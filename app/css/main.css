@@ -18,6 +18,7 @@
 .sec_kv .kv_container .text_box.animate_box p.text_margin span:first-of-type{ margin-right: 591px; font-weight: 200;}
 .sec_kv .kv_container .text_box.animate_box p.text_padding span:last-of-type{ padding-left: 48%; font-weight: 200;}
 
+.sec_kv {overflow: hidden;}
 .sec_kv .kv_container .visual_wrap{margin: 0 auto; max-width: 1547px;}
 .sec_kv .kv_container .visual_box { display: flex; justify-content: space-between; width: 100%; padding: 0 15px; margin-bottom: 69px; }
 /* .sec_kv .kv_container .visual_box .img_box.handelScroll { transform: translateY(0); } */
@@ -174,7 +175,7 @@ input:focus {
 @media all and (max-width: 768px) {
   .sec_kv .kv_container .visual_box {padding-top: 31%;}
   .sec_kv .kv_container .text_box.animate_box p.description_text::after{ content: '아이디어를 디지털 현실로 변환하여 혁신적인 솔루션을 \A제공합니다. 당신의 비전을 우리의 전문성으로 실현합니다.\A함께 미래를 디자인해 보세요.'; position: absolute; top: 24vw; transform: translateY(-50%); left: 2%; width: 285px; height: 15vw; font-size: 2.5vw; font-weight: 500; line-height: 4vw; white-space: pre; letter-spacing: initial; color: #0D0D31; }
-  .sec_kv .kv_container .text_box.animate_box p .text_icon{ display: inline-block; width: 60px; height: 60px; margin-left: 23px; }
+  .sec_kv .kv_container .text_box.animate_box p .text_icon{ display: inline-block; width: 35px; height: 35px; margin-left: 23px; }
   .sec_kv .kv_container .text_box.animate_box p.text_margin span:first-of-type{ margin-right: 17%; }
   .sec_kv .kv_container .text_box.animate_box p.text_padding span:last-of-type{ padding-left: 10%;}
   .sec_kv .kv_container .text_box .subtitle{ position: relative; padding-top:150px; font-size: clamp(10vw, 6vw, 106px); font-weight: 300; letter-spacing: -4.75px; color: #0504AF; }

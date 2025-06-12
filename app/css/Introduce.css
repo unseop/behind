@@ -72,4 +72,31 @@
     backface-visibility: hidden;
     transform: rotateY(180deg);
   }
-  
+  @media screen and  (max-width: 768px) {
+    .bannerWrap {
+      position: relative;
+      padding-top: 80px;
+      overflow: hidden;
+    }
+
+     /* 카드 컨테이너 */
+  .bannerWrap .bannerImage {
+    position: absolute;
+    left: 71%;
+    top: 66px;
+    transform: translateX(-50%) rotate(28deg); 
+    max-width: 205px;
+    perspective: 1000px; 
+    width: 100%;
+  }
+    .bannerWrap .bannerTitle {
+    width: 100%;
+    height: 58vh;
+    font-size: 138px;
+    font-weight: 700;
+    white-space: nowrap;
+    text-transform: uppercase;
+    box-sizing: border-box;
+  }
+
+  }

@@ -133,8 +133,8 @@ export default function Home() {
                 <div className="kv_container inner_1520">
                     <div className="text_box animate_box">
                         <p className="animated-text text_margin">[BRINGING</p>
-                        <p className="animated-text">VISIONARY<img src="http://behind.rf.gd/text_icon.png" alt="별표모양 아이콘" className="text_icon" /></p>
-                        <p className="animated-text light_text">To Reality</p>
+                        <p className="animated-text">VISIONARY</p>
+                        <p className="animated-text light_text">To Reality<img src="http://behind.rf.gd/text_icon.png" alt="별표모양 아이콘" className="text_icon" /></p>
                         <p className="animated-text description_text text_padding">YOUR IDEAS]</p>
                     </div>
                     <div className="visual_wrap">

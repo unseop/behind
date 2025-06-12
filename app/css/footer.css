@@ -1,9 +1,11 @@
 /* 헤더 */
+header {overflow: hidden;}
 header .inner_1520 {display: flex; align-items: center; justify-content: space-between; padding: 50px 20px;}
 header .header_logo {width: 96px;}
 header .header_desc {font-size: 20px; font-weight: 500;}
 
 /* 풋터 */
+footer {overflow: hidden;}
 footer .banner_area {padding: 45px 0 200px 0; margin-bottom: 119px; overflow: hidden;}
 footer .banner_area .banner_list {position: relative; width: 2200px; left: 50%; height: 60px; transform-origin: left;}
 footer .banner_area .banner_list--01 {z-index: 10; top: 50px; background-color: #0504AF; transform: rotate(-6deg) translateX(-50%);}
@@ -137,7 +139,7 @@ footer .company_logo, footer .company_email  {margin-right: 35px;}
     footer .contact_area .contact_title img {width: 65px;}
     footer .contact_area .contact_btn {height: 100%; display: block; padding: 14px 27px; font-size: 16px; letter-spacing: -.5px; color: #0504AF; border: 2px solid #0504AF; background-color: #fff; font-weight: 600;}
   
-    footer .footer_up_btn {position: absolute; right: 25px; bottom: 146px; width: 80px; background: none;}
+    footer .footer_up_btn {position: absolute; right: 25px; bottom: 146px; width: 55px; background: none;}
     footer .footer_up_btn img {width: 100%; height: 100%;}
     footer .company_info {flex-direction: column;}
     footer .company_info .inf {flex-direction: column;}

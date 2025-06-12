@@ -1,5 +1,5 @@
 /* 포폴 리스트 */
-.sec_portfolio {padding-top: 73px;}
+.sec_portfolio {padding-top: 73px; overflow: hidden;}
 .sec_portfolio .inner_1520 .title_box {display: flex; align-items: center; justify-content: space-between; margin-bottom: 70px;}
 .sec_portfolio .inner_1520 .title_box .title {font-size: 120px; color: #0504AF; font-weight: 800; letter-spacing: -6px;}
 .sec_portfolio .inner_1520 .typing {display: flex; justify-content: flex-end; align-items: baseline; width: 688px; border-bottom: 2px solid #0504AF;}
@@ -53,7 +53,7 @@
 }
 
 /* 상세페이지 */
-.sec_detail {}
+.sec_detail {overflow: hidden;}
 .sec_detail .detail_kv {position: relative; background-color: #f4f4f4; height: 646px; overflow: hidden;}
 .sec_detail .detail_kv .kv_img01 {position: absolute; top: -32px; left: 300px; width: 959px; height: 539px; transform: rotate(-30deg); transform-origin: center center; background: url('http://behind.rf.gd/portfolio_kv_detail_fixbg_pc.png') no-repeat center; background-size:cover; overflow: hidden; text-align: center; border-radius: 25px;}
 .sec_detail .detail_kv .kv_img01 img {position: absolute; left: 50.9%; top: 8px; transform: translateX(-50%); border-radius: 18px;}
@@ -161,26 +161,26 @@
 
 @media screen and  (max-width: 768px) {
     /* 포폴 리스트 */
-    .sec_portfolio {padding-top: 60px;}
+    .sec_portfolio {padding-top: 60px; }
     .sec_portfolio .inner_1520 {max-width: 100%; padding: 0 20px;}
     .sec_portfolio .inner_1520 .title_box {align-items: center; flex-direction: column; justify-content: center; margin-bottom: 90px; text-align: center;}
-    .sec_portfolio .inner_1520 .title_box .title {font-size: 13vw; color: #0504AF; font-weight: 800; letter-spacing: -6px;}
+    .sec_portfolio .inner_1520 .title_box .title {font-size: 13vw; color: #0504AF; font-weight: 800; letter-spacing: -2px;}
     .sec_portfolio .inner_1520 .typing {align-self: auto; width: 280px; border-bottom: 2px solid #0504AF;}
     .sec_portfolio .inner_1520 .typing .typing_txt {font-size: 7.5vw; animation: blink .5s infinite, typing 2s steps(22); white-space: nowrap; overflow: hidden;}
     .sec_portfolio .inner_1520 .typing::after {content: '.'; margin-left: 10px; font-size: 100px; color: #0504AF; font-weight: 800; animation: dot .5s infinite; animation-delay: 2s; white-space: nowrap; overflow: hidden;}
     .sec_portfolio .inner_1520 .typing .typing_dot {margin-left: 10px; font-size: 100px; color: #0504AF; font-weight: 800;}
     .sec_portfolio .inner_1520 .contents_box {display: flex; flex-wrap: wrap; justify-content: center;}
-    .sec_portfolio .inner_1520 .list_item {width: 95.5vw; margin-bottom: 100px;}
+    .sec_portfolio .inner_1520 .list_item {width: 100%; margin-bottom: 60px;}
     .sec_portfolio .inner_1520 .list_item a {display: block; margin-bottom: 15px;}
-    .sec_portfolio .inner_1520 .list_item a .img_box {overflow: hidden; width: 95.5vw; height: 50vw;}
+    .sec_portfolio .inner_1520 .list_item a .img_box {overflow: hidden; width: 100%; height: 50vw;}
     .sec_portfolio .inner_1520 .list_item a .img_box:after { content: ''; position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-color: #000;  opacity: 0.3; -webkit-transition: opacity 0.3s ease-in-out; -moz-transition: opacity 0.3s ease-in-out; transition: opacity 0.3s ease-in-out;}
     .sec_portfolio .inner_1520 .list_item a .img_box:hover::after {opacity: 0;}
     .sec_portfolio .inner_1520 .list_item a .img_box img {transition: 0.5s all;}
     .sec_portfolio .inner_1520 .list_item a .img_box:hover img {transform: scale(1.1);}
-    .sec_portfolio .inner_1520 .list_item--title {margin-bottom: 15px; font-size: 3.2vw; font-weight: 500;}
+    .sec_portfolio .inner_1520 .list_item--title {margin-bottom: 10px; font-size: 3.2vw; font-weight: 500;}
     .sec_portfolio .inner_1520 .list_item--desc {font-size: 3vw; line-height: 4vw;}
-    .sec_portfolio .inner_1520 .tab_box {display: flex; justify-content: center; gap: 3vw; margin: 100px 0 9vw;}
-    .sec_portfolio .inner_1520 .tab_box label {padding: 7px 2vw; border-radius: 30px; font-size: 3.5vw; border: 1px solid #0504AF; color: #0504AF; background-color: #fff; cursor: pointer;}
+    .sec_portfolio .inner_1520 .tab_box {display: flex; justify-content: center; gap: 3vw; margin: 50px 0 9vw;}
+    .sec_portfolio .inner_1520 .tab_box label {padding: 7px 3vw; border-radius: 30px; font-size: 3.5vw; border: 1px solid #0504AF; color: #0504AF; background-color: #fff; cursor: pointer;}
     .sec_portfolio .inner_1520 .tab_box input:checked + label{background-color: #0504AF; color: #fff;}
     .sec_portfolio .inner_1520 .tab_box input {appearance: none;}
 
@@ -188,7 +188,7 @@
       /* 상세페이지 */
       .sec_detail .detail_kv {position: relative; background-color: #f4f4f4; height: 90vw; overflow: hidden;}
       .sec_detail .detail_kv .kv_img01 {position: absolute; top: 19vw; left: 20px; width: 93vw; height: 52vw; transform: rotate(0); transform-origin: center center; background: url('http://behind.rf.gd/portfolio_kv_detail_fixbg_pc.png') no-repeat center; background-size:cover; overflow: hidden; text-align: center; border-radius: 12px;}
-      .sec_detail .detail_kv .kv_img01 img {position: absolute; left: 51%; top: 4px; transform: translateX(-50%); border-radius: 5px;}
+      .sec_detail .detail_kv .kv_img01 img {position: absolute; left: 51%; top: 2px; transform: translateX(-50%); border-radius: 7px;}
       .sec_detail .detail_kv .img_box {width: 97.4%;}
       .sec_detail .detail_kv .kv_img02 {position: absolute; top: -591px; left: 973px; width: 1066px; height: 600px; transform: rotate(-20deg); transform-origin: center center; background: url('http://behind.rf.gd/portfolio_kv_detail_fixbg_pc.png') no-repeat center; background-size:cover; overflow: hidden; text-align: center; border-radius: 45px;}
       .sec_detail .detail_kv .kv_img02 img {position: absolute; left: 50%; top: -300px; transform: translateX(-50%); border-radius: 30px;}
