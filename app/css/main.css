@@ -4,6 +4,11 @@
     transform: translateY(0);
   }
 }
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
 
 .sec_project_wrap section.sec_kv { display: flex;justify-content: center; margin: 0 auto; }
 .sec_project_wrap section.sec_kv .kv_container { width: 100%; margin-bottom: 100px; padding: 0 20px;}
