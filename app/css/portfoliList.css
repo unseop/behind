@@ -55,7 +55,7 @@
 /* 상세페이지 */
 .sec_detail {overflow: hidden;}
 .sec_detail .detail_kv {position: relative; background-color: #f4f4f4; height: 646px; overflow: hidden;}
-.sec_detail .detail_kv .kv_img01 {position: absolute; top: -32px; left: 300px; width: 959px; height: 539px; transform: rotate(-30deg); transform-origin: center center; background: url('http://behind.rf.gd/portfolio_kv_detail_fixbg_pc.png') no-repeat center; background-size:cover; overflow: hidden; text-align: center; border-radius: 25px;}
+.sec_detail .detail_kv .kv_img01 {position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 959px; height: 539px; background: url('http://behind.rf.gd/portfolio_kv_detail_fixbg_pc.png') no-repeat center; background-size:cover; overflow: hidden; text-align: center; border-radius: 25px;}
 .sec_detail .detail_kv .kv_img01 img {position: absolute; left: 50.9%; top: 8px; transform: translateX(-50%); border-radius: 18px;}
 .sec_detail .detail_kv .img_box {width: 936px; height: 100%;}
 .sec_detail .detail_kv .kv_img02 {position: absolute; top: -591px; left: 1123px; width: 1066px; height: 600px; transform: rotate(-30deg); transform-origin: center center; background: url('http://behind.rf.gd/portfolio_kv_detail_fixbg_pc.png') no-repeat center; background-size:cover; overflow: hidden; text-align: center; border-radius: 45px;}
@@ -109,7 +109,7 @@
 
     /* 상세페이지 */
     .sec_detail .detail_kv {position: relative; background-color: #f4f4f4; height: 646px; overflow: hidden;}
-    .sec_detail .detail_kv .kv_img01 {position: absolute; top: 20px; left: 190px; width: 959px; height: 539px; transform: rotate(-30deg); transform-origin: center center; background: url('http://behind.rf.gd/portfolio_kv_detail_fixbg_pc.png') no-repeat center; background-size:cover; overflow: hidden; text-align: center; border-radius: 25px;}
+    .sec_detail .detail_kv .kv_img01 {position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 959px; height: 539px; background: url('http://behind.rf.gd/portfolio_kv_detail_fixbg_pc.png') no-repeat center; background-size:cover; overflow: hidden; text-align: center; border-radius: 25px;}
     .sec_detail .detail_kv .kv_img01 img {position: absolute; left: 50.9%; top: 8px; transform: translateX(-50%); border-radius: 18px;}
     .sec_detail .detail_kv .img_box {width: 936px;}
     .sec_detail .detail_kv .kv_img02 {position: absolute; top: -591px; left: 1073px; width: 1066px; height: 600px; transform: rotate(-30deg); transform-origin: center center; background: url('http://behind.rf.gd/portfolio_kv_detail_fixbg_pc.png') no-repeat center; background-size:cover; overflow: hidden; text-align: center; border-radius: 45px;}
@@ -138,7 +138,7 @@
 
     /* 상세페이지 */
     .sec_detail .detail_kv {position: relative; background-color: #f4f4f4; height: 646px; overflow: hidden;}
-    .sec_detail .detail_kv .kv_img01 {position: absolute; top: 84px; left: 65px; width: 810px; height: 457px; transform: rotate(-30deg); transform-origin: center center; background: url('http://behind.rf.gd/portfolio_kv_detail_fixbg_pc.png') no-repeat center; background-size:cover; overflow: hidden; text-align: center; border-radius: 16px;}
+    .sec_detail .detail_kv .kv_img01 {position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 810px; height: 457px; background: url('http://behind.rf.gd/portfolio_kv_detail_fixbg_pc.png') no-repeat center; background-size:cover; overflow: hidden; text-align: center; border-radius: 16px;}
     .sec_detail .detail_kv .kv_img01 img {position: absolute; left: 50.8%; top: 6px; transform: translateX(-50%); border-radius: 9px;}
     .sec_detail .detail_kv .img_box {width: 792px;}
     .sec_detail .detail_kv .kv_img02 {position: absolute; top: -591px; left: 1023px; width: 1066px; height: 600px; transform: rotate(-30deg); transform-origin: center center; background: url('http://behind.rf.gd/portfolio_kv_detail_fixbg_pc.png') no-repeat center; background-size:cover; overflow: hidden; text-align: center; border-radius: 45px;}
@@ -187,7 +187,7 @@
 
       /* 상세페이지 */
       .sec_detail .detail_kv {position: relative; background-color: #f4f4f4; height: 90vw; overflow: hidden;}
-      .sec_detail .detail_kv .kv_img01 {position: absolute; top: 19vw; left: 20px; width: 93vw; height: 52vw; transform: rotate(0); transform-origin: center center; background: url('http://behind.rf.gd/portfolio_kv_detail_fixbg_pc.png') no-repeat center; background-size:cover; overflow: hidden; text-align: center; border-radius: 12px;}
+      .sec_detail .detail_kv .kv_img01 {position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 93vw; height: 52vw;  background: url('http://behind.rf.gd/portfolio_kv_detail_fixbg_pc.png') no-repeat center; background-size:cover; overflow: hidden; text-align: center; border-radius: 12px;}
       .sec_detail .detail_kv .kv_img01 img {position: absolute; left: 51%; top: 2px; transform: translateX(-50%); border-radius: 7px;}
       .sec_detail .detail_kv .img_box {width: 97.4%;}
       .sec_detail .detail_kv .kv_img02 {position: absolute; top: -591px; left: 973px; width: 1066px; height: 600px; transform: rotate(-20deg); transform-origin: center center; background: url('http://behind.rf.gd/portfolio_kv_detail_fixbg_pc.png') no-repeat center; background-size:cover; overflow: hidden; text-align: center; border-radius: 45px;}
