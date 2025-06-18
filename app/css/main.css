@@ -28,10 +28,10 @@ html, body {
 .sec_kv .kv_container .visual_box { display: flex; justify-content: space-between; width: 100%; padding: 0 15px; margin-bottom: 69px; }
 /* .sec_kv .kv_container .visual_box .img_box.handelScroll { transform: translateY(0); } */
 .sec_kv .kv_container .visual_box .img_box img { width: 100%;}
-.sec_kv .kv_container .visual_box .img_box.visual01 { width: 359px; }
-.sec_kv .kv_container .visual_box .img_box.visual02 { width: 230px; }
-.sec_kv .kv_container .visual_box .img_box.visual03 { width: 488px; }
-.sec_kv .kv_container .visual_box .img_box.visual04 { width: 359px; }
+.sec_kv .kv_container .visual_box .img_box.visual01 { width: 359px; height: 24vw;}
+.sec_kv .kv_container .visual_box .img_box.visual02 { width: 230px; height: 13vw;}
+.sec_kv .kv_container .visual_box .img_box.visual03 { width: 488px; height: 34vw;}
+.sec_kv .kv_container .visual_box .img_box.visual04 { width: 359px; height: 21vw;}
 
 .sec_kv .kv_container .text_box{margin: 0 auto; max-width: 1547px;}
 .sec_kv .kv_container .text_box .subtitle{ position: relative; padding-top:120px; font-size: clamp(50px, 6vw, 106px); font-weight: 300; letter-spacing: -4.75px; color: #0504AF; }
@@ -147,6 +147,45 @@ input:focus {
 
 .btn_submit {display: block; margin: 0 auto; width: 141px; height: 55px; font-weight: 700; border: 1px solid #000; background-color: #fff;}
 
+/* 포트폴리오 버튼(스티키) */
+
+.port_floating {
+  z-index: 50; position: fixed; bottom: 5%; right: 3%;
+}
+
+.port_btn {
+  width: 200px;
+  height: 70px;
+  color: #fff !important;
+  padding: 10px 20px;
+  letter-spacing: 0.5px;
+  font-size: 20px;
+  font-weight: 600;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+  7px 7px 20px 0px rgba(0,0,0,.1),
+  4px 4px 5px 0px rgba(0,0,0,.1);
+  outline: none;
+  border-radius: 50px;
+}
+
+/* 1 */
+.port_btn {
+  background: rgb(6,14,131);
+  background: linear-gradient(0deg, rgba(6,14,131,1) 0%, rgba(12,25,180,1) 100%);
+  border: none;
+}
+.port_btn:hover {
+   background: rgb(0,3,255);
+background: linear-gradient(0deg, rgba(105, 104, 207, 1) 0%, rgba(86, 84, 181, 1) 100%);
+}
+
 /* PC 1650px ~ 1301px  1400화면에서 확인*/
 @media screen and (max-width:1650px) {
     /* .sec_kv .kv_container {max-width: 1024px;} */
@@ -186,4 +225,11 @@ input:focus {
   .sec_kv .kv_container .text_box .subtitle{ position: relative; padding-top:150px; font-size: clamp(10vw, 6vw, 106px); font-weight: 300; letter-spacing: -4.75px; color: #0504AF; }
   .sec_kv .kv_container .text_box .subtitle::after{ content: '저희의 최고 작품을 통해 창의성과 혁신의 여정을 함께합니다.\A선도적인 브랜드를 위한 성공적인 디자인 사례를 확인하세요.'; position: absolute; top:104%; right: 0%; left: 2%; white-space: pre; font-size:2.5vw; font-weight: 500; letter-spacing: -0.05em; line-height: 4vw; color: #0D0D31; }
   .sec_kv .kv_container .text_box .subtitle span{margin-right: 25px; font-weight: 100;}
+
+  .port_btn {
+  width: 23vw;
+  height: 8vw;
+  font-size: 3.5vw;
+  border-radius: 50px;
+  }
 }

@@ -4,8 +4,10 @@ import { usePathname, useRouter } from "next/navigation";
 import { useEffect, useRef } from "react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
+import Image from 'next/image'
 import Header from "./components/header"
 import Footer from "./components/footer"
+import Floating from "./components/floating"
 import Introduce from "./components/Introduce.js"
 import "./css/main.css";
 import './globals.css';
@@ -140,16 +142,32 @@ export default function Home() {
                     <div className="visual_wrap">
                         <div className="visual_box">
                             <div className="img_box visual01">
-                                <img src="http://behind.rf.gd/visual01.png" alt="" />
+                                <Image 
+                                    src={`https://behind.rf.gd/visual01.png`}
+                                    alt="스크롤 이미지1"
+                                    fill
+                                />
                             </div>
                             <div className="img_box visual02">
-                                <img src="http://behind.rf.gd/visual02.png" alt="" />
+                                <Image 
+                                    src={`https://behind.rf.gd/visual02.png`}
+                                    alt="스크롤 이미지2"
+                                    fill
+                                />
                             </div>
                             <div className="img_box visual03">
-                                <img src="http://behind.rf.gd/visual03.png" alt="" />
+                                <Image 
+                                    src={`https://behind.rf.gd/visual03.png`}
+                                    alt="스크롤 이미지3"
+                                    fill
+                                />
                             </div>
                             <div className="img_box visual04">
-                                <img src="http://behind.rf.gd/visual04.png" alt="" />
+                                <Image 
+                                    src={`https://behind.rf.gd/visual04.png`}
+                                    alt="스크롤 이미지4"
+                                    fill
+                                />
                             </div>
 
                         </div>
@@ -161,7 +179,9 @@ export default function Home() {
             </section>
             <section className="secIntro">
                 <Introduce />
-            </section>                
+            </section>      
+            
+            <Floating/>
 
             {/* <div className="sec_ask" ref={(el) => (scrollRef.current = el)}>
                 <div className="inner_1260">
