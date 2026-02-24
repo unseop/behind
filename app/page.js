@@ -76,7 +76,7 @@ export default function Home() {
             y: 69,
             scrollTrigger: {
                 trigger: ".visual_box",
-                start: "top center",
+                start: "top 40%",
                 end: "bottom center",
                 scrub: true,
             }
@@ -86,7 +86,7 @@ export default function Home() {
             y: 283,
             scrollTrigger: {
                 trigger: ".visual_box",
-                start: "top center",
+                start: "top 40%",
                 end: "bottom center",
                 scrub: true,
             }
@@ -96,7 +96,7 @@ export default function Home() {
             y: 69,
             scrollTrigger: {
                 trigger: ".visual_box",
-                start: "top center",
+                start: "top 40%",
                 end: "bottom center",
                 scrub: true,
             }
@@ -106,7 +106,7 @@ export default function Home() {
             y: 0,
             scrollTrigger: {
                 trigger: ".visual_box",
-                start: "top center",
+                start: "top 40%",
                 end: "bottom center",
                 scrub: true,
             }
@@ -134,37 +134,37 @@ export default function Home() {
             <section className="sec_kv">
                 <div className="kv_container inner_1520">
                     <div className="text_box animate_box">
-                        <p className="animated-text text_margin">[BRINGING</p>
-                        <p className="animated-text">VISIONARY</p>
-                        <p className="animated-text light_text">To Reality<img src="http://behind.rf.gd/text_icon.png" alt="별표모양 아이콘" className="text_icon" /></p>
-                        <p className="animated-text description_text text_padding">YOUR IDEAS]</p>
+                        <p className="animated-text text_margin">[Frontend&nbsp;Engineer</p>
+                        <p className="animated-text">Building&nbsp;Scalable</p>
+                        <p className="animated-text light_text">and&nbsp;Reliable<img src="/images/kv/text_icon.png" alt="별표모양 아이콘" className="text_icon" /></p>
+                        <p className="animated-text description_text text_padding">Web&nbsp;Interfaces]</p>
                     </div>
                     <div className="visual_wrap">
                         <div className="visual_box">
                             <div className="img_box visual01">
                                 <Image 
-                                    src={`https://behind.rf.gd/visual01.png`}
+                                    src={`/images/kv/visual01.png`}
                                     alt="스크롤 이미지1"
                                     fill
                                 />
                             </div>
                             <div className="img_box visual02">
                                 <Image 
-                                    src={`https://behind.rf.gd/visual02.png`}
+                                    src={`/images/kv/visual02.png`}
                                     alt="스크롤 이미지2"
                                     fill
                                 />
                             </div>
                             <div className="img_box visual03">
                                 <Image 
-                                    src={`https://behind.rf.gd/visual03.png`}
+                                    src={`/images/kv/visual03.png`}
                                     alt="스크롤 이미지3"
                                     fill
                                 />
                             </div>
                             <div className="img_box visual04">
                                 <Image 
-                                    src={`https://behind.rf.gd/visual04.png`}
+                                    src={`/images/kv/visual04.png`}
                                     alt="스크롤 이미지4"
                                     fill
                                 />
@@ -173,7 +173,7 @@ export default function Home() {
                         </div>
                     </div>
                     <div className="text_box">
-                        <p className="subtitle"><span>[</span>WELCOME TO OUR <br /><em>AGENCY</em> <strong>THE INNOVATTION<span>]</span></strong></p>
+                        <p className="subtitle"><span>[</span>Modern Frontend Development <br /><strong>Built with React, Vue, and Scalable Architecture<span>]</span></strong></p>
                     </div>
                 </div>
             </section>
@@ -182,64 +182,6 @@ export default function Home() {
             </section>      
             
             <Floating/>
-
-            {/* <div className="sec_ask" ref={(el) => (scrollRef.current = el)}>
-                <div className="inner_1260">
-                    <h4 className="ask_tit">START A PROJECT 🎉</h4>
-                    <form action="/api/post/new" method="POST">
-                        <ul className="ask_list">
-                            <li className="ask_item">
-                                <label className="item_tit" for="compayName">회사명 <em className="fc_blue">*</em></label>
-                                <input type="text" placeholder="BEHIND" id="companyName" name="company" required/>
-                            </li>
-                            <li className="ask_item">
-                                <label className="item_tit" for="managerName">담당자명 <em className="fc_blue">*</em></label>
-                                <input type="text" placeholder="홍길동" id="managerName" name="name" required/>
-                            </li>
-                            <li className="ask_item">
-                                <label className="item_tit" for="managerEmail">이메일 <em className="fc_blue">*</em></label>
-                                <input type="email" placeholder="admin@behind.co.kr" id="managerEmail" name="email" required/>
-                            </li>
-                            <li className="ask_item">
-                                <label className="item_tit" for="managerPhone">연락처 <em className="fc_blue">*</em></label>
-                                <input type="tel" placeholder="010-1234-5678" id="managerPhone" name="phone" required/>
-                            </li>
-                            <li className="ask_item">
-                                <span className="item_tit">예산 <em className="fc_blue">*</em></span>
-                                <div className="select_box">
-                                    <select id="budget" className="select" name="price">
-                                        <option disabled selected>예산을 선택해주세요.</option>
-                                        <option value="500만원 이하">500만원 이하</option>
-                                        <option value="400만원 이하">400만원 이하</option>
-                                        <option value="300만원 이하">300만원 이하</option>
-                                        <option value="200만원 이하">200만원 이하</option>
-                                        <option value="100만원 이하">100만원 이하</option>
-                                    </select>
-                                </div>
-                            </li>
-                            <li className="ask_item">
-                                <span className="item_tit">서비스 종류 <em className="fc_blue">*</em></span>
-                                <div className="select_box">
-                                    <select id="budget" className="select" name="service">
-                                        <option disabled selected>서비스 종류를 선택해주세요.</option>
-                                        <option value="웹사이트">웹사이트</option>
-                                        <option value="웹디자인">웹디자인</option>
-                                        <option value="영상편집">영상편집</option>
-                                    </select>
-                                </div>
-                            </li>
-                        </ul>
-
-                        <div className="ask_textarea">
-                            <span className="item_tit">문의내용</span>
-                            <textarea type="text" placeholder="내용을 입력하세요" className="ask_cont" id="askCont" name="content"></textarea>
-                        </div>
-
-                        
-                        <button className="btn_submit">SUBMIT</button>
-                    </form>
-                </div>
-            </div> */}
             <Footer/>
         </>
     );

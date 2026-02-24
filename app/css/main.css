@@ -12,15 +12,15 @@ html, body {
 
 .sec_project_wrap section.sec_kv { display: flex;justify-content: center; margin: 0 auto; }
 .sec_project_wrap section.sec_kv .kv_container { width: 100%; margin-bottom: 100px; padding: 0 20px;}
-.sec_kv .kv_container .text_box.animate_box{ margin: 0 auto; max-width: 1559px; height: 100vh; font-size: clamp(50px, 10vw, 150px); font-weight: 900; line-height: 196px; color: #0504AF;}
+.sec_kv .kv_container .text_box.animate_box{ margin: 0 auto; max-width: 1559px; height: auto; margin-bottom: 8%; font-size: clamp(50px, 10vw, 150px); font-weight: 900; line-height: 196px; color: #0504AF;}
 .sec_kv .kv_container .text_box.animate_box p{ display: flex; align-items: center; margin: 0; opacity: 0; visibility: hidden; letter-spacing: -8.24px; }
 .sec_kv .kv_container .text_box.animate_box p.animated-text{ opacity: 1; transition: opacity 0.5s ease; }
 .sec_kv .kv_container .text_box.animate_box p span{ display: inline-block; opacity: 0; transform: translateY(100%); transition: opacity 0.5s ease, transform 0.5s ease; letter-spacing: -8.24px; }
-.sec_kv .kv_container .text_box.animate_box p .text_icon{ display: inline-block; width: 127px; height: 127px; margin-left: 23px; }
+.sec_kv .kv_container .text_box.animate_box p .text_icon{ display: inline-block; width: 100px; height: 100px; margin-left: 33px; }
 .sec_kv .kv_container .text_box.animate_box p.light_text{ font-weight: 100; }
 .sec_kv .kv_container .text_box.animate_box p.description_text{ position: relative; }
-.sec_kv .kv_container .text_box.animate_box p.description_text::after{ content: '아이디어를 디지털 현실로 변환하여 혁신적인 솔루션을 \A제공합니다. 당신의 비전을 우리의 전문성으로 실현합니다.\A함께 미래를 디자인해 보세요.'; position: absolute; top: 60%; transform: translateY(-50%); right: 13%; width: 285px; height: 84px; font-size: 16px; font-weight: 500; line-height: 28px; white-space: pre; letter-spacing: initial; color: #0D0D31; }
-.sec_kv .kv_container .text_box.animate_box p.text_margin span:first-of-type{ margin-right: 591px; font-weight: 200;}
+.sec_kv .kv_container .text_box.animate_box p.description_text::after{ content: '프론트엔드 엔지니어 \A확장 가능하고 안정적인 웹 인터페이스를 만듭니다'; position: absolute; top: 140%; transform: translateY(-50%); right: 13%; width: 285px; height: 84px; font-size: 16px; font-weight: 500; line-height: 28px; white-space: pre; letter-spacing: initial; color: #0D0D31; }
+.sec_kv .kv_container .text_box.animate_box p.text_margin span:first-of-type{ margin-right: 18%; font-weight: 200;}
 .sec_kv .kv_container .text_box.animate_box p.text_padding span:last-of-type{ padding-left: 48%; font-weight: 200;}
 
 .sec_kv {overflow: hidden;}
@@ -34,11 +34,11 @@ html, body {
 .sec_kv .kv_container .visual_box .img_box.visual04 { width: 359px; height: 21vw;}
 
 .sec_kv .kv_container .text_box{margin: 0 auto; max-width: 1547px;}
-.sec_kv .kv_container .text_box .subtitle{ position: relative; padding-top:120px; font-size: clamp(50px, 6vw, 106px); font-weight: 300; letter-spacing: -4.75px; color: #0504AF; }
+.sec_kv .kv_container .text_box .subtitle{ position: relative; padding-top:120px; font-size: clamp(46px, 2vw, 106px); font-weight: 300; letter-spacing: -4.75px; color: #0504AF; }
 .sec_kv .kv_container .text_box .subtitle em{padding-left: 5%;}
-.sec_kv .kv_container .text_box .subtitle::after{ content: '저희의 최고 작품을 통해 창의성과 혁신의 여정을 함께합니다.\A선도적인 브랜드를 위한 성공적인 디자인 사례를 확인하세요.'; position: absolute; top:50%; right: 7%; white-space: pre; font-size:16px; font-weight: 500; letter-spacing: -0.05em; line-height: 28px; color: #0D0D31; }
-.sec_kv .kv_container .text_box .subtitle span{margin-right: 50px; font-weight: 100;}
-.sec_kv .kv_container .text_box .subtitle strong span{ margin-right: 0; margin-left: 50px; font-weight: 100;}
+.sec_kv .kv_container .text_box .subtitle::after{ content: '모던 프론트엔드 개발 \AReact와 Vue 기반의 확장 가능한 구조 설계'; position: absolute; top:30%; right: 7%; white-space: pre; font-size:16px; font-weight: 500; letter-spacing: -0.05em; line-height: 28px; color: #0D0D31; }
+.sec_kv .kv_container .text_box .subtitle span{margin-right: 20px; font-weight: 100;}
+.sec_kv .kv_container .text_box .subtitle strong span{ margin-right: 0; margin-left: 20px; font-weight: 100;}
 .sec_kv .kv_container .text_box .subtitle strong{ font-weight: 600; }
 
 .secIntro {background: #131313;}
@@ -191,16 +191,16 @@ background: linear-gradient(0deg, rgba(105, 104, 207, 1) 0%, rgba(86, 84, 181, 1
     /* .sec_kv .kv_container {max-width: 1024px;} */
   /* .sec_kv{border: 1px solid red;} */
   .sec_kv .kv_container .text_box.animate_box{ margin: 0 auto; width: 100%; height: 50vw; line-height: 180px;}
-  .sec_kv .kv_container .visual_box {padding-top: 210px;}
-  .sec_kv .kv_container .text_box.animate_box p.text_margin span:first-of-type{ margin-right: 45%; }
+  .sec_kv .kv_container .visual_box {padding-top: 15%;}
+  .sec_kv .kv_container .text_box.animate_box p.text_margin span:first-of-type{ margin-right: 6%; }
   /* .sec_kv .kv_container .text_box.animate_box p.description_text::after{display: none;} */
   .sec_kv .kv_container .text_box.animate_box p.text_padding span:last-of-type{ padding-left: 39%; }
-.sec_kv .kv_container .text_box.animate_box p span{ letter-spacing: -2.24px; line-height: 15vw;}
+.sec_kv .kv_container .text_box.animate_box p span{ letter-spacing: -2.24px; line-height: 13vw;}
   .sec_kv .kv_container .text_box{max-width: 100%}
   /* .sec_kv .kv_container .text_box .subtitle{ position: relative; padding-top:120px; font-size: clamp(50px, 10vw, 113px); font-weight: 300; letter-spacing: -4.75px; color: #0504AF; } */
   .sec_kv .kv_container .text_box .subtitle::after{ right: 3%; }
-  .sec_kv .kv_container .text_box .subtitle span{margin-right: 50px; font-weight: 100;}
-  .sec_kv .kv_container .text_box .subtitle strong span{ margin-right: 0; margin-left: 50px; font-weight: 100;}
+  .sec_kv .kv_container .text_box .subtitle span{margin-right: 20px; font-weight: 100;}
+  .sec_kv .kv_container .text_box .subtitle strong span{ margin-right: 0; margin-left: 20px; font-weight: 100;}
   .sec_kv .kv_container .text_box .subtitle strong{ font-weight: 600; }
 }
 
@@ -211,19 +211,20 @@ background: linear-gradient(0deg, rgba(105, 104, 207, 1) 0%, rgba(86, 84, 181, 1
 }
 
 @media all and (max-width:980px) and (min-width:769px) {
-  .sec_kv .kv_container .text_box.animate_box p.description_text::after{ content: '아이디어를 디지털 현실로 변환하여 혁신적인 솔루션을 \A제공합니다. 당신의 비전을 우리의 전문성으로 실현합니다.\A함께 미래를 디자인해 보세요.'; position: absolute; top: 129%; transform: translateY(-50%); left: 2%; width: 285px; height: 84px; font-size: 16px; font-weight: 500; line-height: 28px; white-space: pre; letter-spacing: initial; color: #0D0D31; }
-  .sec_kv .kv_container .text_box.animate_box p.text_margin span:first-of-type{ margin-right: 40%; }
-  .sec_kv .kv_container .text_box .subtitle::after{ content: '저희의 최고 작품을 통해 창의성과 혁신의 여정을 함께합니다.\A선도적인 브랜드를 위한 성공적인 디자인 사례를 확인하세요.'; position: absolute; top:29vw; right: 0%; left: 2%; white-space: pre; font-size:16px; font-weight: 500; letter-spacing: -0.05em; line-height: 28px; color: #0D0D31; }
+  .sec_kv .kv_container .text_box.animate_box p.description_text::after{ content: '프론트엔드 엔지니어 \A확장 가능하고 안정적인 웹 인터페이스를 만듭니다'; position: absolute; top: 129%; transform: translateY(-50%); left: 2%; width: 285px; height: 84px; font-size: 16px; font-weight: 500; line-height: 28px; white-space: pre; letter-spacing: initial; color: #0D0D31; }
+  .sec_kv .kv_container .text_box.animate_box p.text_margin span:first-of-type{ margin-right: 6%; }
+  .sec_kv .kv_container .text_box .subtitle::after{ content: '모던 프론트엔드 개발 \AReact와 Vue 기반의 확장 가능한 구조 설계'; position: absolute; top:29vw; right: 0%; left: 2%; white-space: pre; font-size:16px; font-weight: 500; letter-spacing: -0.05em; line-height: 28px; color: #0D0D31; }
 }
 
 @media all and (max-width: 768px) {
   .sec_kv .kv_container .visual_box {padding-top: 31%;}
-  .sec_kv .kv_container .text_box.animate_box p.description_text::after{ content: '아이디어를 디지털 현실로 변환하여 혁신적인 솔루션을 \A제공합니다. 당신의 비전을 우리의 전문성으로 실현합니다.\A함께 미래를 디자인해 보세요.'; position: absolute; top: 24vw; transform: translateY(-50%); left: 2%; width: 285px; height: 15vw; font-size: 2.5vw; font-weight: 500; line-height: 4vw; white-space: pre; letter-spacing: initial; color: #0D0D31; }
+  .sec_kv .kv_container .text_box.animate_box{font-size: clamp(2vw, 10vw, 150px);}
+  .sec_kv .kv_container .text_box.animate_box p.description_text::after{ content: '프론트엔드 엔지니어 \A확장 가능하고 안정적인 웹 인터페이스를 만듭니다'; position: absolute; top: 24vw; transform: translateY(-50%); left: 2%; width: 285px; height: 15vw; font-size: 3.5vw; font-weight: 500; line-height: 5vw; white-space: pre; letter-spacing: initial; color: #0D0D31; }
   .sec_kv .kv_container .text_box.animate_box p .text_icon{ display: inline-block; width: 35px; height: 35px; margin-left: 23px; }
-  .sec_kv .kv_container .text_box.animate_box p.text_margin span:first-of-type{ margin-right: 17%; }
+  .sec_kv .kv_container .text_box.animate_box p.text_margin span:first-of-type{ margin-right: 6%; }
   .sec_kv .kv_container .text_box.animate_box p.text_padding span:last-of-type{ padding-left: 10%;}
   .sec_kv .kv_container .text_box .subtitle{ position: relative; padding-top:150px; font-size: clamp(10vw, 6vw, 106px); font-weight: 300; letter-spacing: -4.75px; color: #0504AF; }
-  .sec_kv .kv_container .text_box .subtitle::after{ content: '저희의 최고 작품을 통해 창의성과 혁신의 여정을 함께합니다.\A선도적인 브랜드를 위한 성공적인 디자인 사례를 확인하세요.'; position: absolute; top:104%; right: 0%; left: 2%; white-space: pre; font-size:2.5vw; font-weight: 500; letter-spacing: -0.05em; line-height: 4vw; color: #0D0D31; }
+  .sec_kv .kv_container .text_box .subtitle::after{ content: '모던 프론트엔드 개발 \AReact와 Vue 기반의 확장 가능한 구조 설계'; position: absolute; top:104%; right: 0%; left: 2%; white-space: pre; font-size:3.5vw; font-weight: 500; letter-spacing: -0.05em; line-height: 5vw; color: #0D0D31; }
   .sec_kv .kv_container .text_box .subtitle span{margin-right: 25px; font-weight: 100;}
 
   .port_btn {

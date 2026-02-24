@@ -1,7 +1,7 @@
 
 .bannerWrap {
     position: relative;
-    padding-top: 337px;
+    padding: 75px 0;
     overflow: hidden;
   }
   
@@ -30,9 +30,9 @@
   .bannerWrap .bannerImage {
     position: absolute;
     left: 60%;
-    top: 337px;
+    top: 160px;
     transform: translateX(-50%) rotate(28deg); 
-    max-width: 504px;
+    max-width: 374px;
     perspective: 1000px; 
     width: 100%;
   }

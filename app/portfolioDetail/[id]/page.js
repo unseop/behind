@@ -25,7 +25,7 @@ export default async function Portfoliodetail(props) {
                 <div className="detail_kv">
                     <div className="kv_img01">
                         <div className="img_box">
-                            <img src={'https://behind.rf.gd/' + result._id + '.jpg'} alt={result.title + '의 웹사이트'} />
+                            <img src={'/images/portfolio/' + result._id + '.jpg'} alt={result.title + '의 웹사이트'} />
                         </div>
                     </div>
                     {/* <div className="kv_img02">

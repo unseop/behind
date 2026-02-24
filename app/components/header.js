@@ -6,7 +6,7 @@ export default function Header() {
         <header>
             <div className="inner_1520">
                 <Link href={'/'} className="header_desc">
-                    <img className="header_logo" src="https://behind.rf.gd/header_logo.svg" alt="BHND로고"/>
+                    HOME
                 </Link>
                 <Link href={'../portfolioList'} className="header_desc">Portfolio</Link>
             </div>

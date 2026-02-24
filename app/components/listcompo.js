@@ -69,7 +69,7 @@ export default function List(props) {
                                         <Link href={"/portfolioDetail/" + data[i]._id}>
                                             <div className="img_box">
                                                 <Image 
-                                                    src={`https://behind.rf.gd/${data[i]._id}.jpg`}
+                                                    src={`/images/portfolio/${data[i]._id}.jpg`}
                                                     alt={`${data[i].title}의 썸네일`}
                                                     fill
                                                 />
