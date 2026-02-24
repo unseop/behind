@@ -62,25 +62,26 @@ export default function List(props) {
                     </div>
                     
                     <div className="contents_box">
-                        {
-                            data && data.map((a, i)=> {
-                                return(
-                                    <div className="list_item" key={i}>
-                                        <Link href={"/portfolioDetail/" + data[i]._id}>
-                                            <div className="img_box">
-                                                <Image 
-                                                    src={`/images/portfolio/${data[i]._id}.jpg`}
-                                                    alt={`${data[i].title}의 썸네일`}
-                                                    fill
-                                                />
-                                            </div>
-                                        </Link>
-                                        <h4 className="list_item--title">{data[i].title}</h4>
-                                        <p className="list_item--desc">{data[i].int}</p>
+                        {data &&
+                            [...data]
+                                .sort((a, b) => b.order - a.order)
+                                .map((item) => {
+                                return (
+                                    <div className="list_item" key={item._id}>
+                                    <Link href={`/portfolioDetail/${item._id}`}>
+                                        <div className="img_box">
+                                        <Image
+                                            src={`/images/portfolio/${item._id}.jpg`}
+                                            alt={`${item.title}의 썸네일`}
+                                            fill
+                                        />
+                                        </div>
+                                    </Link>
+                                    <h4 className="list_item--title">{item.title}</h4>
+                                    <p className="list_item--desc">{item.int}</p>
                                     </div>
-                                )
-                            })
-                        }
+                                );
+                            })}
                     </div>
                 </div>
             </div>
