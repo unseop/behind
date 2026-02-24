@@ -20,8 +20,8 @@ html, body {
 .sec_kv .kv_container .text_box.animate_box p.light_text{ font-weight: 100; }
 .sec_kv .kv_container .text_box.animate_box p.description_text{ position: relative; }
 .sec_kv .kv_container .text_box.animate_box p.description_text::after{ content: '프론트엔드 엔지니어 \A확장 가능하고 안정적인 웹 인터페이스를 만듭니다'; position: absolute; top: 140%; transform: translateY(-50%); right: 13%; width: 285px; height: 84px; font-size: 16px; font-weight: 500; line-height: 28px; white-space: pre; letter-spacing: initial; color: #0D0D31; }
-.sec_kv .kv_container .text_box.animate_box p.text_margin span:first-of-type{ margin-right: 18%; font-weight: 200;}
-.sec_kv .kv_container .text_box.animate_box p.text_padding span:last-of-type{ padding-left: 48%; font-weight: 200;}
+.sec_kv .kv_container .text_box.animate_box p.text_margin span:first-of-type{ margin-right: 6%; font-weight: 200;}
+.sec_kv .kv_container .text_box.animate_box p.text_padding span:last-of-type{ padding-left: 6%; font-weight: 200;}
 
 .sec_kv {overflow: hidden;}
 .sec_kv .kv_container .visual_wrap{margin: 0 auto; max-width: 1547px;}
@@ -194,7 +194,7 @@ background: linear-gradient(0deg, rgba(105, 104, 207, 1) 0%, rgba(86, 84, 181, 1
   .sec_kv .kv_container .visual_box {padding-top: 15%;}
   .sec_kv .kv_container .text_box.animate_box p.text_margin span:first-of-type{ margin-right: 6%; }
   /* .sec_kv .kv_container .text_box.animate_box p.description_text::after{display: none;} */
-  .sec_kv .kv_container .text_box.animate_box p.text_padding span:last-of-type{ padding-left: 39%; }
+  .sec_kv .kv_container .text_box.animate_box p.text_padding span:last-of-type{ padding-left: 6%; }
 .sec_kv .kv_container .text_box.animate_box p span{ letter-spacing: -2.24px; line-height: 13vw;}
   .sec_kv .kv_container .text_box{max-width: 100%}
   /* .sec_kv .kv_container .text_box .subtitle{ position: relative; padding-top:120px; font-size: clamp(50px, 10vw, 113px); font-weight: 300; letter-spacing: -4.75px; color: #0504AF; } */
@@ -222,7 +222,7 @@ background: linear-gradient(0deg, rgba(105, 104, 207, 1) 0%, rgba(86, 84, 181, 1
   .sec_kv .kv_container .text_box.animate_box p.description_text::after{ content: '프론트엔드 엔지니어 \A확장 가능하고 안정적인 웹 인터페이스를 만듭니다'; position: absolute; top: 24vw; transform: translateY(-50%); left: 2%; width: 285px; height: 15vw; font-size: 3.5vw; font-weight: 500; line-height: 5vw; white-space: pre; letter-spacing: initial; color: #0D0D31; }
   .sec_kv .kv_container .text_box.animate_box p .text_icon{ display: inline-block; width: 35px; height: 35px; margin-left: 23px; }
   .sec_kv .kv_container .text_box.animate_box p.text_margin span:first-of-type{ margin-right: 6%; }
-  .sec_kv .kv_container .text_box.animate_box p.text_padding span:last-of-type{ padding-left: 10%;}
+  .sec_kv .kv_container .text_box.animate_box p.text_padding span:last-of-type{ padding-left: 6%;}
   .sec_kv .kv_container .text_box .subtitle{ position: relative; padding-top:150px; font-size: clamp(10vw, 6vw, 106px); font-weight: 300; letter-spacing: -4.75px; color: #0504AF; }
   .sec_kv .kv_container .text_box .subtitle::after{ content: '모던 프론트엔드 개발 \AReact와 Vue 기반의 확장 가능한 구조 설계'; position: absolute; top:104%; right: 0%; left: 2%; white-space: pre; font-size:3.5vw; font-weight: 500; letter-spacing: -0.05em; line-height: 5vw; color: #0D0D31; }
   .sec_kv .kv_container .text_box .subtitle span{margin-right: 25px; font-weight: 100;}
